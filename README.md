@@ -6,7 +6,6 @@ This repository is a redo of MRDBourke's Food Vision App from scratch, applying 
 ## Takeaways
   
 
------------------
 
 **Process:** 
 * Generate the Base Model first  
