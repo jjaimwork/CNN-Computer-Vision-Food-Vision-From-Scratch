@@ -1,7 +1,11 @@
 # Food-Vision-From-Scratch
 This repository is a redo of MRDBourke's Food Vision App from scratch, applying everything I learned from the course chapter in addition of making my own dataset.
 
+> The goal of beating [DeepFood](https://www.researchgate.net/publication/304163308_DeepFood_Deep_Learning-Based_Food_Image_Recognition_for_Computer-Aided_Dietary_Assessment), a 2016 paper which used a Convolutional Neural Network trained for 2-3 days to achieve 77.4% top-1 accuracy.
+  
 ## Takeaways
+  
+
 -----------------
 
 **Process:** 
