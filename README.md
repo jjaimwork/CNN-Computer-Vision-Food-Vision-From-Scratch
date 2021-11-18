@@ -38,7 +38,7 @@ use prefetch to preload data helps with training time
 
 -----------------
 
-**When overfitting**
+**When overfitting**  
 Add more training data  
-Augment your data  
-Simplify your model
+Augment your data   
+Simplify your model  
