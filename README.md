@@ -8,6 +8,7 @@ This repository is a redo of MRDBourke's Food Vision App from scratch, applying 
 
 
 **Process:** 
+  
 * Generate the Base Model first  
 > If it's overfitting the training set, either add more data or augment the data  
 in our case we've reached almost perfect training results using our training data,  
@@ -18,7 +19,7 @@ so we did augmentation to feed our model more varieties of data to learn from.
   
 * Make a new checkpoint path for every model,  
   
-* Save our model as h5 (or save the model, but without adding a directory since it's bugged)
+* **Always SAVE** our model as h5 (or save the model, but without adding a directory since it's bugged)
   
 * We can clone our model -> load weights from checkpoint -> **compile** -> evaluate  
   
@@ -28,20 +29,26 @@ so we did augmentation to feed our model more varieties of data to learn from.
 -----------------
 
 From there we can use our pretrained model for **Fine Tuning**  
-  
+    
 **compile** after turning layers trainable  
-  
+    
 i.e. increasing epochs, making layers trainable, and doing a lr callback
-
+  
 -----------------
 
 **Preprocessing and Training:**  
+  
 Use mixed precision, it helps with training time.  
+  
 use prefetch to preload data helps with training time  
-
+  
 -----------------
 
 **When overfitting**  
+  
 Add more training data  
+  
 Augment your data   
+  
 Simplify your model  
+  
