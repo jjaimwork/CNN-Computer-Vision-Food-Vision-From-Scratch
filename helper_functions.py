@@ -376,6 +376,7 @@ def create_checkpoint_callback(checkpoint_path, metric, save_best=False, save_we
         monitor=metric,
         save_weights_only=save_weights,
         save_best_only=save_best,
+        verbose=1
     )
     return checkpoint_callback
 
