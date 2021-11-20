@@ -7,7 +7,7 @@ This repository is a redo of [MRDBourke's Food Vision](https://github.com/mrdbou
   
 
 
-**Process:** 
+[**Process:** Check this link](https://github.com/jjaimwork/CNN-Computer-Vision-Food-Vision-From-Scratch/blob/master/Convolutional%20Neural%20Network.ipynb)
   
 * Generate the Base Model first  
 > If it's overfitting the training set, either add more data or augment the data  
