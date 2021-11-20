@@ -2,7 +2,17 @@
 This repository is a redo of [MRDBourke's Food Vision](https://github.com/mrdbourke/tensorflow-deep-learning) App from scratch, applying everything I learned from the course chapter in addition of making my own dataset.
 
 > The goal of beating [DeepFood](https://www.researchgate.net/publication/304163308_DeepFood_Deep_Learning-Based_Food_Image_Recognition_for_Computer-Aided_Dietary_Assessment), a 2016 paper which used a Convolutional Neural Network trained for 2-3 days to achieve 77.4% top-1 accuracy.
-  
+
+## Dataset Generated
+
+### For CNN Notebooks
+[1 Percent 10 Classes](https://drive.google.com/file/d/1PBLakt-sRJ9O7BG9nUvq8rT3-_qv5IjH/view?usp=sharing)    
+[10 Percent 10 Classes](https://drive.google.com/file/d/1EMEUtPe-zSldiaoXXhukWZ_EqatF-6wo/view?usp=sharing)    
+[100 Percent 10 Classes](https://drive.google.com/file/d/1F7LP-Leufk4stX8cN5gwL6ovbspAerqy/view?usp=sharing)  
+
+### For Milestone Notebooks
+[101 Classes 10, 20, 50, 100 Percent](https://drive.google.com/file/d/1L_3TY67yfJVnW2Uxbi8Twl2wvfzHB414/view?usp=sharing) 
+
 ## Takeaways
   
 
